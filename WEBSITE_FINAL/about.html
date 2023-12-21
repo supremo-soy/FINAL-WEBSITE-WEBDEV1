@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduvantage</title>
+    <link rel="stylesheet" href="website.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href=""><img src="logo.png" /></a>
+        <h2 class="logo">Eduvantage</h2>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="website.html">HOME</a></li>
+            <li><a href="universities.html">SCHOOL UNIVERSITIES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-----about us content------>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Vision</h1>
+          <p>
+            To empower students worldwide by providing them with a comprehensive
+            platform that assists in making informed decision about their future
+            education, enabling them to choose the perfect course and school
+            that aligns with their passions, aspirations, and potential.
+          </p>
+          <h1>Goal</h1>
+          <p>
+            Our organization aims to empower students worldwide by providing a
+            comprehensive platform that assists them in making informed
+            decisions about their future education.
+          </p>
+          <h1>Mission</h1>
+          <p>
+            Our mission is to revolutionize the way students approach their
+            educational journey by offering a user-friendly website that serves
+            as one-stop solution for all their course and school selection
+            needs. We aim to provide accurate, up-to-date, and personalized
+            information, coupled with intuitive tools and resources, to guide
+            students towards making confident decisions that will shape their
+            future success.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="dogs-meeting.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-----footer------>
+
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Eduvantage is a free source of information, inspiration, and practical
+        strategies for learning and evualuating colleges. <br />
+        We are published by the POGITERENCE Educational Foundation, a nonprofit,
+        nonpartisan organization.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> by Bontilao Terence</p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
