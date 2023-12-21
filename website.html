@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduvantage</title>
+    <link rel="stylesheet" href="website.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href=""><img src="logo.png" /></a>
+        <h2 class="logo">Eduvantage</h2>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="website.html">HOME</a></li>
+            <li><a href="universities.html">SCHOOL UNIVERSITIES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Cebu Best Universities</h1>
+        <p>
+          Whether you're looking for your perfect course or the best University
+          for your preferred course.
+        </p>
+        <a href="about.html" class="hero-btn">Visit us To know More</a>
+      </div>
+    </section>
+
+    <!---campus--->
+
+    <section class="campus">
+      <h1>Top Universities In Cebu</h1>
+      <p>In no particular order based on google</p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="USC.jpg" />
+          <div class="layer">
+            <h3>University of Sancarlos</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="University-of-Cebu.jpg" />
+          <div class="layer">
+            <h3>University of Cebu</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="edited-front-view.jpg" />
+          <div class="layer2">
+            <h3>
+              University of SanJose <br />
+              Recoletos
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----Course------>
+    <section class="known">
+      <h1>Universities Known For</h1>
+      <p></p>
+
+      <div class="row">
+        <div class="known-col">
+          <h3>University of SanCarlos</h3>
+          <p>
+            USC is a center of development (COD) of CHED in civil engineering,
+            electrical engineering, electronics engineering, computer
+            engineering, industrial engineering, biology, chemistry, hotel &
+            restaurant management, information technology, marine science,
+            philosophy and tourism.
+          </p>
+        </div>
+        <div class="known-col">
+          <h3>University of Cebu</h3>
+          <p>
+            UC is consistently producing topnotchers in Board exams for
+            Engineering, Maritime Studies, Marine Engineering, Naval
+            Architecture, Nursing, Accounting, Criminology and Customs
+            Administration.
+          </p>
+        </div>
+
+        <div class="known-col">
+          <h3>University of SanJose Recoletos</h3>
+          <p>
+            USJ-R is Cebu's primer Institute of Higher Learning. It is
+            recognized by the Philippine Commission on Higher Education as a
+            Center for Excellence in Teacher Education and Accountancy and a
+            Center for Development in Information and Communication Technology
+            and Industrial Engineering.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---Call to action---->
+    <section class="cta">
+      <h1>To know more about other Universities</h1>
+      <a href="universities.html" class="hero-btn">View More</a>
+    </section>
+
+    <!-----footer------>
+
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Eduvantage is a free source of information, inspiration, and practical
+        strategies for learning and evualuating colleges. <br />
+        We are published by the POGITERENCE Educational Foundation, a nonprofit,
+        nonpartisan organization.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> by Bontilao Terence</p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
