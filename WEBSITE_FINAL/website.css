@@ -142,7 +142,7 @@ h1{
 p{
     color: #777;
     font-size:14px ;
-    font-weight:300 ;
+    font-weight:500 ;
     line-height:22px ;
     padding: 10px;
 }
@@ -308,9 +308,6 @@ h3{
     cursor:pointer ;
     padding:18px 0;
 }
-.fa-heart{
-    color: #f44336;
-}
 
 /*--About us--*/
 
@@ -352,6 +349,7 @@ h3{
 
 .about-col p{
     padding: 15px 0 25px;
+    font-weight: 500;
 }
 
 .red-btn{
@@ -377,23 +375,42 @@ h3{
     border-radius:10px ;
     margin-bottom:5% ;
     text-align: left;
+    align-items: baseline;
 }
 
 .University-col img{
     width:100% ;
     border-radius:10px ;
-    height: 300px;
+    height: 350px;
 
 }
 .University-col p{
     padding: 0;
+    font-weight: 500;
 }
 
 .University-col h3{
     margin-top:16px ;
+    margin-bottom: 0px;
+    text-align: left;
+
+}
+
+.University-col .loc{
+    margin-top:0px ;
     margin-bottom: 15px;
     text-align: left;
+
 }
+.University-col .fa-solid{
+    color: blue;
+}
+
+.University-col img:hover{
+    box-shadow:  0 0 100px 0px rgba(0, 0, 0, 0.2);
+}
+
+
 /*---contact us---*/
 
 .location{
